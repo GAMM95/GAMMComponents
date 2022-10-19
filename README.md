@@ -3,7 +3,7 @@
   swingx-1.6.1.jar
   
   Si se quiere usar en un nuevo proyecto, es necesario copiar el .jar 
-  </i gamm.components-v0.1 /> de la carpeta dist al nuevo proyecto.
+  "gamm.components-v0.1.jar" de la carpeta dist al nuevo proyecto.
   
   Una vez realizado eso, se puede agregar en la paleta de netbeans para tenerlos
   
