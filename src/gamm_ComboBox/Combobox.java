@@ -34,7 +34,6 @@ import org.jdesktop.animation.timing.TimingTargetAdapter;
 
 public class Combobox<E> extends JComboBox<E> {
 
-    String s;
     public String getLabeText() {
         return labeText;
     }
@@ -206,7 +205,7 @@ public class Combobox<E> extends JComboBox<E> {
             g2.setColor(new Color(150, 150, 150));
             FontMetrics ft = g2.getFontMetrics();
             Rectangle2D r2 = ft.getStringBounds(combo.getLabeText(), g2);
-            double height = getHeight() - in.top - in.bottom ;
+            double height = getHeight() - in.top - in.bottom;
             double textY = (height - r2.getHeight()) / 2;
             double size;
             if (animateHinText) {
