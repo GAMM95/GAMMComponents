@@ -81,7 +81,7 @@ public class PanelShadow extends JPanel {
         Graphics2D g2 = renderImage.createGraphics();
         int size = shadowSize * 2;
         int x;
-        int y;
+        int y; 
         int width = getWidth() - size;
         int height = getHeight() - size;
         if (shadowType == ShadowType.TOP) {
